@@ -57,6 +57,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-toggle="modal" data-target="#fotos">Imagens</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#comentarios">Comentários</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -227,6 +230,29 @@
         </div>
     </div>
 
+     <!--Comentarios-->
+     <div class="modal fade" id="comentarios" tabindex="-1" role="dialog" aria-labelledby="equipeTitulo" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-body">
+                    <div class="card-deck">
+                        <div class="card text-white bg-dark mb-6">
+                            <div class="card-header text-center">Comentários</div>
+                            <p><!-- begin wwww.htmlcommentbox.com -->
+                                <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">A caixa de comentarios</a> esta carregando...</div>
+                                <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+                                <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24n7HdpXwsYmIpA%2Fog.jfUL%2F"+"&opts=16862&num=10&ts=1582239830480");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+                               <!-- end www.htmlcommentbox.com --></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript">
@@ -234,14 +260,17 @@
             if (window.location.href.indexOf('#sobre') != -1) {
                 $('#sobre').modal('show');
             }
-            if (window.location.href.indexOf('#equipe') != -1) {
+            if (window.location.href.indexOf('#local') != -1) {
                 $('#local').modal('show');
             }
-            if (window.location.href.indexOf('#regras') != -1) {
+            if (window.location.href.indexOf('#eu') != -1) {
                 $('#eu').modal('show');
             }
-            if (window.location.href.indexOf('#wp') != -1) {
+            if (window.location.href.indexOf('#fotos') != -1) {
                 $('#fotos').modal('show');
+            }
+            if (window.location.href.indexOf('#comentarios') != -1) {
+                $('#comentarios').modal('show');
             }
         });
 
