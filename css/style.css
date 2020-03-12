@@ -42,7 +42,7 @@ p.drop-cap:first-letter {
 .modal-header { border-bottom: none; }
 .modal-footer { border-top: none; }
 
-.fa-whatsapp:hover {
+.fa-whatsapp-square:hover {
 	color: #7289da;
 }
 .fa-facebook:hover {
