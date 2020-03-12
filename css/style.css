@@ -52,6 +52,10 @@ p.drop-cap:first-letter {
 	color: #7289da;
 }
 
+.fa-google:hover {
+	color: #7289da;
+}
+
 .blink {
 	animation: blink 2s steps(10, start) infinite;
 	-webkit-animation: blink 1s steps(10, start) infinite;
