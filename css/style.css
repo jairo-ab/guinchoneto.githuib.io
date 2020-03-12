@@ -90,7 +90,7 @@ p.drop-cap:first-letter {
 .fb-post {
 	border:solid 1px;
     width:330px;
-    overflow: visible;  
+    overflow: auto;  
     margin:0px;
 }
 
