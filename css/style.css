@@ -87,6 +87,13 @@ p.drop-cap:first-letter {
 	opacity: 0;
 }
 
+.fb-post {
+	border:solid 1px;
+    width:450px;
+    overflow: hidden;  
+    margin:0px;
+}
+
 .fingerprint-spinner, .fingerprint-spinner * {
 	box-sizing: border-box;
   }
